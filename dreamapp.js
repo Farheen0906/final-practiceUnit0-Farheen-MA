@@ -90,9 +90,9 @@ console.log(introMessage);
 //Array is used to store the to do list
 let taskArray = [ "0-Data Types", " 1-Arrays", " 2-Objects" ];
 console.log( "To-Do list :" + taskArray ); 
-let taskSelected = input.questionInt( "Select the task from the above list" );
+let taskSelected = input.questionInt( "Select the task from the above list\t" );
 //Elements in the array are accessed by index using bracket notation
-console.log( "Task Selected is:" + taskArray[taskSelected]);
+console.log(`Task Selected is: ${taskArray[taskSelected]}`);
 
 
 // Creating an array of motivational messages.
